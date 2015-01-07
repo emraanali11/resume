@@ -1,0 +1,210 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Author:
+% Debarghya Das (http://www.softwarehelp.in)
+%
+% Repository:
+% https://github.com/emraanali11
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{imran-resume-openfont}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Imran }{Ali}{ \urlstyle{same}\url{http://www.softwarehelp.in} \\
+\href{mailto:emraanali11@gmail.com}{emraanali11@gmail.com} \\
++91-7829236687
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Graduation}
+\descript{B.TECH in Information Tech.}
+\location{Completed July 2012 | Lucknow}
+R.I.T.M, Lucknow \\
+\location{Percentage : 7.18 / 10.0 } 
+\sectionsep
+
+\subsection{Intermediate}
+\descript{Colvin Taluqdars' College}
+\location{Completed. June 2007|  Lucknow}
+\location{Percentage : 6.8 / 10.0 }
+\sectionsep
+
+\subsection{High School}
+\descript{Holy Cross High School}
+\location{Completed. June 2005|  Nautanwa}
+\location{Percentage : 6.8 / 10.0 }
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/emraanali11}{\bf emraanali11} \\
+LinkedIn://  \href{https://www.linkedin.com/in/emraanali11}{\bf emraanali11} \\
+Blog:// \href{http://www.softwarehelp.in}{\bf softwarehelp}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 1000 lines:}
+Java \textbullet{}   HTML \textbullet{}  CSS \textbullet{}  \LaTeX\ \\
+\location{Over 500 lines:}
+R \textbullet{} Android \\
+\location{Familiar:}
+Python \textbullet{} MySQL \textbullet{} Hadoop  \textbullet{} MongoDB
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TOOLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Tools}
+\location{IDE}
+Brackets \textbullet{} Eclipse \\
+\location{Others}
+Google Analytics \textbullet{} ZOHO CRM
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Venturesity}
+\descript{| Tech Consultant + Operations Executive }
+\location{Since February 2014 – Current | Bangalore, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Writing Technical Challenges as per Job Description
+\item Planned, organized and executed all Technical Challenges
+\item Providing support to all participants ensuring challenge completion
+\item Involved in planning \& execution of Hackathons organized by venturesity
+\item Creative lead for course content design
+\item Led course support team ensuring proper delivery of course actions
+\item Helping individuals to ensure completion of assigned course project
+\item Involved in planning, execution and identifying possible courses of action
+\end{tightemize}
+\sectionsep
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Certificates
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+\runsubsection{Coursera}
+\descript{| R Programming}
+\location{December 2014 – Present \href{https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=NM4AFDVNUV}{Certificate Link}}
+Completed R Programming with distinction - 
+\begin{tightemize}
+\item Overview of R, R data types and objects, reading and writing data
+\item Control structures, functions, scoping rules, dates and times
+\item Loop functions, debugging tools
+\item Simulation, code profiling
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Coursera}
+\descript{| Mining Massive Datasets}
+\location{December 2014 – Present \href{https://www.coursera.org/course/mmds}{Certificate Link}}
+Earned Statement of Accomplishment, grade achived 59.2 \%   \\
+\begin{tightemize}
+\item MapReduce, Link Analysis -- PageRank
+\item Locality-Sensitive Hashing -- Basics + Applications
+\item Distance Measures, Nearest Neighbors, Frequent Itemsets
+\item Clustering, Computational Advertising
+\end{tightemize}
+\sectionsep
+
+\runsubsection{edX}
+\descript{| Introduction to Computer Programming}
+\location{September 2014 - Present \href{https://s3.amazonaws.com/verify.edx.org/downloads/b6a91932eb064928baf42429e4b211e9/Certificate.pdf}{Certificate Link}}
+Successfully completed the CS101.1x, courses offered by IITBombay
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\runsubsection{Sports Analytics}
+\descript{| Recommender system for sports}
+\location{January 2015 – Present}
+Currently in planning Stage
+\begin{tightemize}
+\item R for Statistical Analytis
+\item MongoDB as a NoSQL Database
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Knowlarity FullStack Challenge}
+\descript{| Build a CMS.}
+\location{January 2015 – Present}
+Currently in execution Stage
+\begin{tightemize}
+\item FrontEnd - HTML, CSS, Javascript
+\item Framework - Django
+\item Language - Python
+\item Backend - MySQL
+\end{tightemize}
+\end{minipage} 
+\end{document}  \documentclass[]{article}
