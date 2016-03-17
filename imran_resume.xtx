@@ -96,23 +96,21 @@ Blog:// \href{http://www.softwarehelp.in}{\bf softwarehelp}
 \section{Skills}
 \subsection{Programming}
 \location{Over 1000 lines:}
-Java \textbullet{}   HTML \textbullet{}  CSS \textbullet{}  \LaTeX\ \\
+ MySQL \textbullet{}  Bash\\
 \location{Over 500 lines:}
-R \textbullet{} Android \\
+PHP  \textbullet{} HTML \textbullet{} CSS \\
 \location{Familiar:}
-Python \textbullet{} MySQL \textbullet{} Hadoop  \textbullet{} MongoDB
+Redis \textbullet{} R  \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     TOOLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Tools}
-\location{IDE}
-Brackets \textbullet{} Eclipse \\
-\location{Others}
-Google Analytics \textbullet{} ZOHO CRM
-
-
+\location{Monitoring Tools}
+Graphana \textbullet{} Nagios \\
+\location{Revision Control}
+Git \textbullet{} SVN
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN TWO
@@ -128,23 +126,22 @@ Google Analytics \textbullet{} ZOHO CRM
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-
-\runsubsection{Venturesity}
-\descript{| Tech Consultant + Operations Executive }
-\location{Since February 2014 – Current | Bangalore, India}
+\runsubsection{Exotel TechCom Pvt Ltd}
+\descript{| DevOps }
+\location{Since 16th February 2015 – Current | Bangalore, India}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Writing Technical Challenges as per Job Description
-\item Planned, organized and executed all Technical Challenges
-\item Providing support to all participants ensuring challenge completion
-\item Involved in planning \& execution of Hackathons organized by venturesity
-\item Creative lead for course content design
-\item Led course support team ensuring proper delivery of course actions
-\item Helping individuals to ensure completion of assigned course project
-\item Involved in planning, execution and identifying possible courses of action
+\item Working as Network Operations Center(NOC) Engg
+\item Deploying Nagios alerts for various checks based on statistics
+\item Code Deployment’s to applications servers
+\item Documenting, Tracking bugs in applications and updating to development team
+\item Worked on L1 and L2 issues
 \end{tightemize}
 \sectionsep
 
+\runsubsection{Venturesity}
+\descript{| Tech Consultant + Operations Executive }
+\location{Since February 2014 – 15th February 2015 | Bangalore, India}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -152,28 +149,29 @@ Google Analytics \textbullet{} ZOHO CRM
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Certifications}
+\runsubsection{Udemy}
+\descript{| AWS Certified Solutions Architect - Associate}
+\location{March 2016 – Present 
+\href{https://www.udemy.com/certificate/UC-1JHQBM11/}{Certificate Link}}
+AWS Certified Solutions Architect - Associate - 
+\begin{tightemize}
+\item EC2, volumes and snapshot
+\item Identity Access Management, Cloud Watch,  Route53
+\item RDS using Security Groups
+\item Building Custom VPC, NAT and Access Control Lists
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Coursera}
 \descript{| R Programming}
 \location{December 2014 – Present \href{https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=NM4AFDVNUV}{Certificate Link}}
 Completed R Programming with distinction - 
-\begin{tightemize}
-\item Overview of R, R data types and objects, reading and writing data
-\item Control structures, functions, scoping rules, dates and times
-\item Loop functions, debugging tools
-\item Simulation, code profiling
-\end{tightemize}
 \sectionsep
 
 \runsubsection{Coursera}
 \descript{| Mining Massive Datasets}
 \location{December 2014 – Present \href{https://www.coursera.org/course/mmds}{Certificate Link}}
 Earned Statement of Accomplishment, grade achived 59.2 \%   \\
-\begin{tightemize}
-\item MapReduce, Link Analysis -- PageRank
-\item Locality-Sensitive Hashing -- Basics + Applications
-\item Distance Measures, Nearest Neighbors, Frequent Itemsets
-\item Clustering, Computational Advertising
-\end{tightemize}
 \sectionsep
 
 \runsubsection{edX}
@@ -186,25 +184,21 @@ Successfully completed the CS101.1x, courses offered by IITBombay
 %    Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
-\runsubsection{Sports Analytics}
-\descript{| Recommender system for sports}
-\location{January 2015 – Present}
-Currently in planning Stage
+\runsubsection{Shirinking MySQL Database}
+\descript{}
+Major drawback with the default big MySQL system tablespace, reclaiming of unused space after deletion of table is not possible.
 \begin{tightemize}
-\item R for Statistical Analytis
-\item MongoDB as a NoSQL Database
+\item Analysis of best approach
+\item Alter table vs database dump
+\item Recreating table spaces and indexes as individual files
+\item Extract existing tables from ibdata1 , dropping old database and importing it again to reclaim the unused size
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Knowlarity FullStack Challenge}
-\descript{| Build a CMS.}
-\location{January 2015 – Present}
-Currently in execution Stage
-\begin{tightemize}
-\item FrontEnd - HTML, CSS, Javascript
-\item Framework - Django
-\item Language - Python
-\item Backend - MySQL
-\end{tightemize}
+\runsubsection{mysql database migration with zero downtime}
+\descript{}
+The need for database migration was due to adding a new column to a large table, moving to better hardware or increasing the storage on the hardware
+\descript{}
+\sectionsep
 \end{minipage} 
 \end{document}  \documentclass[]{article}
