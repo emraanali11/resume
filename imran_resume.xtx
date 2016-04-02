@@ -184,7 +184,7 @@ Successfully completed the CS101.1x, courses offered by IITBombay
 %    Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
-\runsubsection{Shirinking MySQL Database}
+\runsubsection{Shrinking SQL Database}
 \descript{}
 Major drawback with the default big MySQL system tablespace, reclaiming of unused space after deletion of table is not possible.
 \begin{tightemize}
